@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './Header';
+import Navbar from './Navbar';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './NavBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
+    <Navbar />
   </React.StrictMode>
 );
 
